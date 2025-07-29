@@ -1,0 +1,9 @@
+.board-container {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+}
+
+.board-container > div {
+  border: 2px black solid;
+}
